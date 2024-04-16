@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors());
 const corsOptions = {
   // origin: "https://wk4h5tms-3000.inc1.devtunnels.ms",
-  origin: "https://vercel.com/saiteja-adapas-projects/marriage-management-admin-se/CQdqa11ZunnTirKYhp4waTNFngDu",
+  origin: "https://marriage-management-admin-f1kpaxw01-saiteja-adapas-projects.vercel.app/",
 
   credentials: true,
 };
