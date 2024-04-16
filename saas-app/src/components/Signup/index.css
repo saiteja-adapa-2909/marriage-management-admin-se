@@ -1,0 +1,103 @@
+.head-style1 {
+  font-family: "Inter Tight", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  padding-top: 20px;
+  /* margin-left: 0px !important; */
+  padding-left: 20px;
+}
+.dashboard-header {
+  margin-left: 20px;
+  margin-bottom: 0px;
+}
+.hr-style {
+  margin-left: 20px;
+  margin-right: 20px;
+  color: grey;
+}
+* {
+  font-family: "Inter Tight", sans-serif !important;
+}
+.bg-container {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.upload-button-style {
+  /* width: 20%; */
+  /* margin-left: 40px; */
+  color: grey !important;
+  /* margin-top: 13px; */
+}
+.cp-button-style {
+  margin-left: 40px;
+  font-size: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 0px;
+}
+.label-styling {
+  font-family: "Inter Tight", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.005em;
+  font-size: 13px;
+  line-height: 2.25rem;
+  margin: 0px;
+  margin-left: 10px !important;
+}
+.div-style {
+  width: 100% !important;
+}
+.custom-file-input {
+  /* background-color: #4caf50 !important; */
+  color: grey !important;
+  padding: 8px !important;
+  font-size: 15px;
+  font-family: "Inter Tight", sans-serif !important;
+  font-style: normal !important;
+  cursor: pointer;
+  border-radius: 5px;
+  display: inline-block !important;
+}
+.checkboxClass {
+  position: relative;
+  vertical-align: middle;
+}
+.p-img-upload {
+  font-family: "Inter Tight", sans-serif !important;
+  color: rgb(6, 215, 6);
+  text-align: center;
+  margin: 10px;
+}
+.cp-button-style2 {
+  /* margin-left: 40px; */
+  /* margin-left: auto; */
+  font-size: 14px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 0px;
+}
+.cp-button-style3 {
+  /* margin-left: 40px; */
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  font-size: 14px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 0px;
+}
+.uploaded_image {
+  width: 80px;
+  height: 120px;
+  margin: 20px;
+}

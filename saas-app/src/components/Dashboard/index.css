@@ -1,0 +1,70 @@
+.boxes {
+  border: 0.5px solid rgb(189, 185, 185);
+}
+.head-style {
+  font-family: "Inter Tight", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.dashboard-header {
+  margin-left: 20px;
+}
+.graphs {
+  font-family: "Inter Tight", sans-serif;
+  border: 0.5px solid rgb(189, 185, 185);
+  margin: 0.05rem;
+}
+.graph {
+  line-height: 15px;
+}
+.graph p {
+  color: black;
+  font-family: "Inter Tight", sans-serif;
+  font-size: 1.1rem;
+}
+.graph button {
+  font-family: "Inter Tight", sans-serif;
+  border: none;
+}
+.graph-text {
+  font-family: "Inter Tight", sans-serif !important;
+  font-size: 15px !important;
+  font-weight: 500;
+}
+
+.cont-head {
+  font-family: "Inter Tight", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.005em;
+  font-size: 14px;
+  color: black;
+  margin-top: 10px;
+}
+
+.cont-p-style {
+  font-family: "Inter Tight", sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  padding-bottom: 7px;
+}
+.graph .active {
+  font-family: "Inter Tight", sans-serif;
+  background-color: black;
+  color: white;
+}
+
+.cp-button-style {
+    margin-left: 40px;
+    font-size: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 0px;
+  }

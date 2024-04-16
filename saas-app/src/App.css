@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500&family=Montserrat:wght@100;300;400&display=swap");
+
+bg-cont {
+  width: 100vw;
+}
+/* h1 {
+  font-family: "Inter Tight", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  padding-top: 20px;
+  padding-left: 20px;
+} */
+
+p {
+  padding-left: 20px;
+  color: grey;
+  font-size: 14px;
+}
+
+.hr-style {
+  margin-left: 20px;
+  margin-right: 20px;
+  color: grey;
+}
+
+/* HTML: <div class="loader"></div> */
+.loader {
+  width: fit-content;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 30px;
+  background: radial-gradient(circle closest-side, #252525 94%, #0000)
+    right/calc(200% - 1em) 100%;
+  animation: l24 1s infinite alternate linear;
+}
+.loader::before {
+  content: "Loading...";
+  line-height: 1em;
+  color: #0000;
+  background: inherit;
+  background-image: radial-gradient(circle closest-side, #fff 94%, #252525);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+@keyframes l24 {
+  100% {
+    background-position: left;
+  }
+}
+
+/* HTML: <div class="loader"></div> */
+.numloader {
+  width: 40px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: 
+    radial-gradient(farthest-side,#4d4d4c 94%,#0000) top/8px 8px no-repeat,
+    conic-gradient(#0000 30%,#2b2a29);
+  -webkit-mask: radial-gradient(farthest-side,#0000 calc(100% - 8px),#000 0);
+  animation: l13 1s infinite linear;
+}
+@keyframes l13{ 
+  100%{transform: rotate(1turn)}
+}
